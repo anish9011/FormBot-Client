@@ -1,0 +1,102 @@
+.mainDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.innerDiv {
+    background: #18181B;
+    padding: 20px;
+    border-radius: 8px;
+    width: 900px;
+}
+
+.buttonDiv{
+    text-align: right;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.innerDiv h1 {
+    font-family: Open Sans;
+    font-size: 27.33px;
+    font-weight: 600;
+    line-height: 41px;
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.dropGrp{
+    display: flex;
+    justify-content:flex-start;
+    gap:-30px;
+}   
+
+.dropdownBtn ,.dropdownBtn1{
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 100%;
+    background: #18181B;
+}
+
+.closeBtn {
+    margin-top: 10px;
+    background: #18181B;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.dropdownMenu{
+    box-shadow: 0px 1px 3.5px 0px #FFFFFF40;
+    border-bottom: white;
+}
+
+.dropdownBtn1{
+    border-bottom: white;
+}
+
+.inputBox input{
+    height: 60px;
+}
+
+.inputBox button{
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 3%;
+}
+
+.link{
+    margin-top: 3%;
+}
+
+.link button{
+    width:100%;
+    border-radius: 12px;
+}
