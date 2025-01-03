@@ -41,7 +41,7 @@ export default function ShareModal({ onClose }) {
       }
   
       const { data: result } = await axios.post(
-        'http://localhost:5000/user/return',
+        'https://formbot-server-4-1ckc.onrender.com/user/return',
         { email: inputValue },
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -50,7 +50,7 @@ export default function ShareModal({ onClose }) {
       console.log("Fetched user ID:", userId);
   
       const response = await axios.put(
-        'http://localhost:5000/folder/update',
+        'https://formbot-server-4-1ckc.onrender.com/folder/update',
         { invitedUser: userId },
         { headers: { Authorization: `Bearer ${token}` } }
       );
